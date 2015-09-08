@@ -2,9 +2,11 @@ $primary-color: red;
 .menu {
 	position:fixed;
 	background-color: $primary-color;
+	opacity: 0.5;
 }
 .menuContent {
 	height: 100%;
 	width: 100%;
 	background-color: yellow;
+	display: none;
 }
